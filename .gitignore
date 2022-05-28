@@ -1,5 +1,3 @@
-*lock.json
-
 # Logs
 logs
 *.log
@@ -91,6 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
+# dist #---------------------------en este proyecto, por no tener webpack que empaquete lo de dist
 
 # Gatsby files
 .cache/

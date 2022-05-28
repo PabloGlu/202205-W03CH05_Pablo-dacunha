@@ -1,26 +1,18 @@
 {
-    "name": "07-todo-ts",
+    "name": "dom-typescript",
     "version": "1.0.0",
     "description": "",
-    "type": "module",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "start": "tsc --watch",
-        "start:build": "node ./dist/index.js",
-        "test": "jest --watchAll --coverage"
+        "test": "jest --watchAll --coverage",
+        "tsc": "tsc --watch",
+        "build": "node ./dist/index.js"
     },
-    "keywords": [],
-    "author": "Alejandro Cerezo",
+    "author": "",
     "license": "ISC",
-    "prettier": {
-        "singleQuote": true
-    },
-    "dependencies": {
-        "@types/uuid": "^8.3.4",
-        "uuid": "^8.3.2"
-    },
     "devDependencies": {
-        "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+        "@babel/plugin-transform-modules-commonjs": "^7.18.0",
         "@types/jest": "^27.5.1",
         "@typescript-eslint/eslint-plugin": "^5.25.0",
         "@typescript-eslint/parser": "^5.25.0",
@@ -30,6 +22,9 @@
         "eslint-plugin-import": "^2.26.0",
         "jest": "^28.1.0",
         "typescript": "^4.6.4"
+    },
+    "prettier": {
+        "singleQuote": true
     },
     "babel": {
         "env": {
