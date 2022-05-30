@@ -1,8 +1,7 @@
-import { iPokamion } from '../interfaces/iPokamion.js';
 import { iComponent } from '../interfaces/iComponent.js';
 import { Component } from './Component.js';
 
-export class Sample extends Component implements iComponent {
+export class Navegation extends Component implements iComponent {
     template: string;
     constructor(selector: string) {
         super();
@@ -10,6 +9,12 @@ export class Sample extends Component implements iComponent {
         this.render(selector);
     }
     createTemplate(): string {
-        return ``;
+        return `
+        <nav class="navegation">
+            <ul class="navegationlist">
+                <li class="navegationitem"></li>
+            <ul>
+        <nav>
+        `;
     }
 }
